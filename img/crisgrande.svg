@@ -1,0 +1,84 @@
+<svg width="14995" height="30087" viewBox="0 0 14995 30087" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cola">
+<path id="Vector 10" d="M9943.61 26545.1C8912.01 24981.7 7245.91 24572.3 6582.8 24430.3C8661.37 24399.1 10019.6 25126.8 10714 26202.6C11414.9 27288.1 12065.2 27689.9 13021.3 27657.3C13538.3 27639.7 14616.9 27573.4 14870.5 28281.4C15467.6 29947.9 13212.4 30005.4 12107.8 29292.9C11697.4 29028.1 11441.9 28830.5 10849 28031.9C10194 27149.5 10287.4 27066.2 9943.61 26545.1Z" fill="#474747" stroke="black" stroke-width="50"/>
+<path id="Vector 11" d="M13778.2 29722.6C14343.4 29572.2 14769.7 27888.9 13457.6 27646.2C13935.6 27640.4 14689.6 27749.6 14886.6 28321.5C14996.6 28640.7 15014.2 29060.7 14766.9 29342.9C14560.2 29578.8 14161.5 29707.5 13778.2 29722.6Z" fill="black" stroke="black" stroke-width="50"/>
+<path id="Vector 12" d="M12319.8 29412C13030.8 29296.4 13320 28043.5 12536.6 27629.2C12441.5 27608.1 12259.8 27584.3 12054.9 27493.3C12776 27862.1 12468.3 29121.2 11849.5 29114.7C11939.8 29192.9 12205.9 29351.1 12319.8 29412Z" fill="black" stroke="black" stroke-width="50"/>
+</g>
+<g id="cuerpo">
+<path id="Ellipse 4" d="M9410.44 28430.8C9340.92 28215.9 8974.87 27539.3 8506.56 27637.8C8117.05 27719.6 7923.72 28346.1 7971.56 28741.8C7991.66 28908.1 8162.96 30233.8 9069.05 30043.3C9975.14 29852.9 9410.44 28430.8 9410.44 28430.8Z" fill="#3D3D3D" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Vector 8">
+<path d="M4568.7 19369.6C5410.31 20693.7 3146.83 22086.4 1104.59 23545.2C616.07 23556.8 -198.108 23830.5 83.3968 24105.8C364.901 24381.1 990.963 24233.3 1318.72 24029.7C2111.22 23537.2 3554.09 23427.7 4913.23 22501C5463.46 24570.9 7745.53 28879.1 8437.36 28900.9C8989.61 28918.2 9487.89 28701.7 9003.68 27153.9C8608.91 25892.1 9711.86 25077.2 10772.7 24916.2C9891.12 24143.2 10000.3 22109.5 10704.7 21920.7C10143.5 21379.9 9259.09 21321.5 8824.71 20086.2C8606.25 19465 8722.56 19429.1 8451.11 14468.8C8270.24 11163.7 7760.52 13000.8 7768.38 13310.9L7553.06 17403C7587.91 18779.4 6834.72 19315.6 6281.07 18595.4C5493.71 19094.5 5139.34 19179.2 4568.7 19369.6Z" fill="#474747"/>
+<path d="M10772.7 24916.2C11123.5 24863 11520.8 24928.1 11947.8 25166.5C13576.8 25502.8 11636.3 21671 10704.7 21920.7C10006 22107.9 9892.94 24110.2 10751.3 24897C10758.4 24903.5 10765.5 24909.9 10772.7 24916.2Z" fill="#474747"/>
+<path d="M11947.8 25166.5C13576.8 25502.8 11636.3 21671 10704.7 21920.7M11947.8 25166.5C11520.8 24928.1 11123.5 24863 10772.7 24916.2M11947.8 25166.5C11431.5 25286.6 11037.4 25159.3 10751.3 24897M10704.7 21920.7C10143.5 21379.9 9259.09 21321.5 8824.71 20086.2C8606.25 19465 8722.56 19429.1 8451.11 14468.8C8270.24 11163.7 7760.52 13000.8 7768.38 13310.9L7553.06 17403C7587.91 18779.4 6834.72 19315.6 6281.07 18595.4C5493.71 19094.5 5139.34 19179.2 4568.7 19369.6C5410.31 20693.7 3146.83 22086.4 1104.59 23545.2C616.07 23556.8 -198.108 23830.5 83.3968 24105.8C364.901 24381.1 990.963 24233.3 1318.72 24029.7C2111.22 23537.2 3554.09 23427.7 4913.23 22501C5463.46 24570.9 7745.53 28879.1 8437.36 28900.9C8989.61 28918.2 9487.89 28701.7 9003.68 27153.9C8608.91 25892.1 9711.86 25077.2 10772.7 24916.2M10704.7 21920.7C10000.3 22109.5 9891.12 24143.2 10772.7 24916.2M10704.7 21920.7C10006 22107.9 9892.94 24110.2 10751.3 24897M10704.7 21920.7C10006 22107.9 9892.94 24110.2 10751.3 24897M10772.7 24916.2C10765.5 24909.9 10758.4 24903.5 10751.3 24897" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group 1">
+<path id="Ellipse 4_2" d="M10830.2 25088.7C10934.6 25290.3 11437.4 25894 11982.5 25696.1C12435.9 25531.4 12601.2 24860.1 12504.1 24471.9C12463.4 24308.8 12125.2 23010.6 11070.5 23393.6C10015.9 23776.5 10830.2 25088.7 10830.2 25088.7Z" fill="#464646" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="Ellipse 5" rx="170.469" ry="314.852" transform="matrix(-0.936284 0.371916 0.39814 0.909403 11953.6 24064.3)" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="Ellipse 7" rx="173.048" ry="314.175" transform="matrix(-0.90284 0.442326 0.468022 0.877822 10970.9 24363.9)" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="Ellipse 6" rx="188.799" ry="316.925" transform="matrix(-0.90744 0.433449 0.459222 0.882152 11357.6 23921.9)" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Ellipse 8" d="M11255 25123.7C11319.4 25289.4 11471.6 25378.1 11857.8 25243.1C12211.7 25119.3 12284.7 24952.4 12220.2 24786.7C12155.8 24620.9 11823.7 24449.9 11586.3 24532.9C11348.9 24615.9 11190.5 24957.9 11255 25123.7Z" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector 13" d="M5929.84 20979.5C6142.78 20920.9 6115.08 20493.8 6033.63 20040.6C6370.58 20362.9 6689.15 20603.6 6885.22 20503.1C6968.84 20460.3 7027.82 20401.7 6972.86 20539.5L7042.44 20503.8C7051.65 20499.1 7104.61 20521.1 7000.83 20636.7L6813.77 21473.8L5965.95 21135.8C5896.02 21145.7 5854.32 21123.6 5849.64 21115C5842.92 21102.7 5865.9 21077.7 5894 21063.3C5746.75 21029.9 5853.3 21000.6 5928.31 20979.9L5929.84 20979.5Z" fill="white" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="cara">
+<path id="Vector 1" d="M559.507 15623.5L2529.87 15709.9L2037.43 17843.6C1323.66 17113.7 962.37 16665.3 559.507 15623.5Z" fill="#474747" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 1_2" d="M1107.53 15902.9L2430.43 15873.9L2120.97 17487.7C1592.23 16918.6 1419.17 16703.3 1107.53 15902.9Z" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2" d="M6040.18 13571.3L4630.48 14890.6L6445.12 16159.2C6469.22 15160.2 6465.19 14605 6040.18 13571.3Z" fill="#474747" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 7" d="M6128.53 15854.4L4847.5 15022.3L5924.8 14015.4C6084.37 14739.5 6286.56 14829.8 6128.53 15854.4Z" fill="#FFDBD3" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Ellipse 1" d="M3421.24 14935.4C4641.32 14460 5753.64 15463.2 6185.11 15890.5C6738.31 16438.4 7837 16476.4 7837 16476.4C7568.71 17128.6 7106.07 18547.3 5226.14 19208.5C3397.98 19992.3 1980.19 19306.4 1314.66 19018.1C1314.66 19018.1 2075.22 18255.6 2074.61 17492.4C2074.13 16897.1 2201.16 15410.9 3421.24 14935.4Z" fill="#474747" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="Ellipse 2" rx="758.364" ry="791.761" transform="matrix(0.931309 -0.362921 0.389298 0.921661 3351.46 17453)" fill="white"/>
+<ellipse id="Ellipse 3" rx="758.364" ry="791.761" transform="matrix(0.931309 -0.362921 0.389298 0.921661 5246.24 16714.6)" fill="white"/>
+<path id="Polygon 1" d="M4821.63 18146.3L5035.95 17642C4708.91 17658.1 4549.38 17723.1 4302.08 17928L4821.63 18146.3Z" fill="black"/>
+<path id="Polygon 2" d="M3204.88 16171.3L2954.39 15215.9L2785.09 15362.2L2667.51 15496.8L3204.88 16171.3Z" fill="black"/>
+<path id="Polygon 4" d="M4372.24 15716.4L3848.49 14838.3L4069.85 14821.3L4245.51 14825.4L4372.24 15716.4Z" fill="black"/>
+<path id="Vector 4" d="M6536.91 17535C7086.14 17263.2 7759.96 17052.7 8536.88 16982.5" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 5" d="M2939.4 18711C2331.48 18823.3 1666.32 19057.2 1012.43 19461.9" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 3" d="M6558.79 17300.6C7076.31 16974.3 7723.17 16697 8485.77 16549.6" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 6" d="M3125.12 18864.5C2533.98 19037.1 1897.98 19337 1289.73 19806.6" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Polygon 3" d="M3933.8 16299.7L3553.53 14911.7L3385.98 14953.9L3194.92 15062.6L3933.8 16299.7Z" fill="black"/>
+<g id="ojoder" filter="url(#filter0_d_0_1)">
+<ellipse rx="407.1" ry="416.454" transform="matrix(0.931309 -0.362921 0.389298 0.921661 5238.81 16862.7)" fill="black"/>
+</g>
+<g id="ojoiz" filter="url(#filter1_d_0_1)">
+<ellipse rx="407.947" ry="416.454" transform="matrix(0.931309 -0.362921 0.389298 0.921661 3355.45 17610.6)" fill="black"/>
+</g>
+</g>
+</g>
+<g id="mano">
+<path id="Vector 10_2" d="M8272 12810.1C8438.67 12781.5 8474.49 13158.5 7646.84 13165.2" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 13_2" d="M8251.69 12756C8418.35 12727.4 8454.17 13104.4 7626.52 13111.1" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 12_2" d="M8275.26 12926.6C8441.93 12897.9 8477.75 13275 7650.1 13281.7" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 11_2" d="M8273.83 12870C8440.49 12841.3 8476.31 13218.4 7648.66 13225.1" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 9" d="M7853.24 12542.7C7521.57 12698 6731.62 13125.4 7103.78 13450.5C7427.76 13733.5 7766.06 13444.6 7949.1 13178.5C8132.14 12912.3 8355.21 12307.7 7853.24 12542.7Z" fill="white" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 16" d="M7911.74 13254.1C7878.08 13445.7 7739.64 13756.3 7477.6 13806.8C7322.94 13836.6 7276.06 13690.6 7549.19 13690.6C7657.76 13690.6 7663.01 13831.8 7415.76 14124.1C7363.2 14186.2 7181.19 14377.6 7220.97 14526.1" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="globo">
+<path id="Vector 17" d="M8329.78 12813.2C7997.06 12285.6 8621.71 11347.6 8108.21 10741C7720.7 10283.2 7626.53 10057.3 7699.46 9562.72C7746.79 9367.7 7862.54 9019.32 8384.47 9022.16C8527.64 9019.38 8595.27 9294.54 8312.26 9300.05C8241.02 9309.48 8031.33 9261.77 7762.47 8995.45C7408.29 8644.61 7616.77 7742.51 7711.96 7282.49C7853.2 6599.95 7731.02 4950.37 7136.27 4532.76" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 14" d="M7154.2 4537.2C7327.84 4451.69 7670.82 4498.83 7601.14 4659.45C7531.46 4820.07 7380.68 4637.73 7154.2 4537.2Z" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 15" d="M7137.5 4557.54C7060.12 4737.15 7119.75 5083.58 7275.01 5006.62C7430.27 4929.66 7245.12 4783.61 7137.5 4557.54Z" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Ellipse 9" d="M6871.28 1010.5C7258.5 1522.21 7490.54 2275.14 7529.44 2974.93C7548.88 3324.61 7520.01 3659.8 7438.94 3943.94C7357.81 4228.27 7225 4459.54 7038.02 4604.31C6907.63 4705.27 6681.22 4754.01 6397.24 4751.02C6114.55 4748.05 5779.65 4693.87 5436.88 4594.12C4750.51 4394.39 4038.34 4013.71 3651.97 3503.13C2876.5 2478.33 2974.74 1092.52 3861.2 406.151C4747.66 -280.213 6095.8 -14.2955 6871.28 1010.5Z" fill="#FF6666" stroke="black" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="4687.36" y="16313.3" width="1102.9" height="1100.79" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="135" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.916667 0 0 0 0 0.166667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<filter id="filter1_d_0_1" x="2803.27" y="17061.1" width="1104.35" height="1101.01" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="135" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_0_1"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.916667 0 0 0 0 0.166667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+</defs>
+</svg>

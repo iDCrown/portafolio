@@ -1,48 +1,120 @@
-const Hamburguer = document.querySelector('.menu-header')
-const Menu = document.querySelector('.navegation');
+// const Hamburguer = document.querySelector('.menu-header')
+// const Menu = document.querySelector('.navegation');
 
-console.log(Menu)
+const ModalOne = document.querySelector('.modalOne')
+const ModalTwo = document.querySelector('.modalTwo')
+const ModalThree = document.querySelector('.modalThree')
 
-Hamburguer.addEventListener('click', ()=> {
- Menu.classList.toggle('show-header')
- 
- if(Menu === false) {
-   alert('atras')
- }
+const ShowModalOne = document.querySelector('.li-worksOne')
+const ShowModalTwo = document.querySelector('.li-worksTwo')
+const ShowModalThree = document.querySelector('.li-worksThree')
+
+const Palanca = document.querySelector(".palanca")
+
+const ModalTitle = document.querySelector(".h1modal")
+const ModalH2 = document.querySelector(".h2-modal")
+const ModalP = document.querySelector(".p-modal")
+const ModalFondo = document.querySelector(".content-modal")
+
+
+const SnowLuz = document.querySelector('.snow-luz')
+
+const caraOne = document.querySelector(".carawork1");
+const caraTwo = document.querySelector(".carawork2");
+const caraThree = document.querySelector(".carawork3");
+const caraFour = document.querySelector(".carawork4");
+const caraFive = document.querySelector(".carawork5");
+
+ModalOne.addEventListener('click', e => {
+  if(ModalOne.classList.contains('show-modal') && e.target == ModalOne) {
+    ModalOne.classList.toggle('show-modal')
+  }
+  console.log(e.target)
 })
-
-const Modal = document.querySelector('.modal')
-const contentmodal = document.querySelector('.content-modal')
-
-Modal.addEventListener('click', e => {
-  if(Modal.classList.contains('show-modal') && e.target == Modal) {
-    Modal.classList.toggle('show-modal')
+ModalTwo.addEventListener('click', e => {
+  if(ModalTwo.classList.contains('show-modal') && e.target == ModalTwo) {
+    ModalTwo.classList.toggle('show-modal')
+  }
+  console.log(e.target)
+})
+ModalThree.addEventListener('click', e => {
+  if(ModalThree.classList.contains('show-modal') && e.target == ModalThree) {
+    ModalThree.classList.toggle('show-modal')
   }
   console.log(e.target)
 })
 
-const ShowModal = document.querySelector('.li-works')
+ModalTitle.addEventListener('click', () => {
+  if(Palanca.classList.contains('palanca-bottom') == true) {
+    // ModalTitle.classList.add("modal-title-color")
+    console.log("colore")
+  }
+  console.log(e.target)
+})
+console.log(ModalTitle)
 
-ShowModal.addEventListener('click', () => {
-  Modal.classList.toggle('show-modal')
+ModalH2.addEventListener('click', () =>  {
+  if(Palanca.classList.contains('palanca-bottom') == true) {
+    ModalH2.classList.add("modal-title")
+  }
+  console.log("true")
+})
+
+ModalP.addEventListener('click', () =>  {
+  if(Palanca.classList.contains('palanca-bottom') == true) {
+    ModalP.classList.add("modal-title-color")
+  }
+  console.log("true")
+})
+
+ModalFondo.addEventListener('click',() =>  {
+  if(Palanca.classList.contains('palanca-bottom') == true) {
+    ModalFondo.classList.add("modal-background")
+  }
+  console.log("true")
 })
 
 
-const imgwork = document.getElementById("imgwork")
-const cara = document.getElementById("carawork");
 
+ShowModalOne.addEventListener('click', () => {
+  ModalOne.classList.toggle('show-modal')
+})
+ShowModalTwo.addEventListener('click', () => {
+  ModalTwo.classList.toggle('show-modal')
+})
+ShowModalThree.addEventListener('click', () => {
+  ModalThree.classList.toggle('show-modal')
+})
 
-// test.addEventListener("mouseover", (event) => {
-//   cara.classList.add("movecara")
-//   console.log("yes")
-// })
+Palanca.addEventListener('click', () => {
+  Palanca.classList.toggle('palanca-bottom') 
+  console.log("true")
+})
 
-function caratrue() {
-  cara.classList.add("movecara")
+function caraOneTrue() {
+  caraOne.classList.add("movecara")
   console.log("true")
 }
 
-function carafalse() {
-  cara.classList.remove("movecara")
+function caraOnefalse() {
+  caraOne.classList.remove("movecara")
+  console.log("false")
+}
+
+function caraTwotrue() {
+  caraTwo.classList.add("movecara")
+  console.log("true")
+}
+function caraTwofalse() {
+  caraTwo.classList.remove("movecara")
+  console.log("false")
+}
+
+function caraThreetrue() {
+  caraThree.classList.add("movecara")
+  console.log("true")
+}
+function caraThreefalse() {
+  caraThree.classList.remove("movecara")
   console.log("false")
 }

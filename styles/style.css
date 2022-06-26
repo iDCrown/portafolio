@@ -77,37 +77,106 @@ input:focus-visible {
   overflow: hidden;
   text-align: center;
   width: 36em;
-  height: 55em;
+  height: 49em;
   top: 0em;
+}
+
+/* PETS-HOME */
+.animal-home{
+  transform: translateY(-45em);
+  animation: trayectoria 26s 0s cubic-bezier(0.21, 0.16, 0.77, 0.77) infinite;
+ }
+.animal{
+  margin: 10em 0 ;
+}
+
+/* ANDRES */
+.andres-home {
+  animation: move-globo 1s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#ojoiz-andre {
+  animation: ojos-andre 1s ease-in-out infinite alternate;
+}
+#ojoder-andre {
+  animation: ojos-andre 1s ease-in-out infinite alternate;
+}
+
+/* CRISTAL */
+.cristal-home {
+  animation: move-globo 1s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#cola-cris {
+  animation: move-cola-cris 1s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#ojoder-cristal {
+  animation: ojos-cris 1s ease-in-out infinite alternate;
+  transform-box: fill-box;
+}
+#ojoiz-cristal {
+  animation: ojos-cris 1s ease-in-out infinite alternate;
+  transform-box: fill-box;
+}
+
+/* LUNA */
+.luna-home {
+  animation: move-globo 1s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#cola-luna {
+  animation: cola-luna 1s ease-in-out infinite alternate;
+  transform-origin: left;
+  transform-box: fill-box;
+}
+#orejader-luna {
+  transform-box: fill-box;
+  transform-origin: top;
+  transform: inherit;
+}
+#orejaiz-luna {
+  transform-box: fill-box;
+  transform-origin: top;
+  transform: inherit;
+}
+#ojoder-luna {
+  transform-box: fill-box;
+  animation: ojo-luna 1s ease-in-out infinite alternate;
+
 }
 
 /* LUNA-ABOUT */
 .ojo {
   transform: translateY(170em) scale(.8) translateX(200em);
-  animation: 2s ojo1 ease infinite alternate;
+  animation: 1s ojo1 ease infinite alternate;
 }
 #pierna1 {
   transform-origin: top;
   transform-box: fill-box;
-  animation: pierna1 2s ease-in-out infinite alternate;
+  animation: pierna1 1s ease-in-out infinite alternate;
 }
 #pierna2 {
   transform-origin: top;
   transform-box: fill-box;
-  animation: pierna2 2s ease-in-out infinite alternate;
+  animation: pierna2 1s ease-in-out infinite alternate;
 }
 #brazos {
   transform-origin: right;
   transform-box: fill-box;
-  animation: brazos 2s ease-in-out infinite alternate;
+  animation: brazos 1s ease-in-out infinite alternate;
 }
 #brazoss {
   transform-origin: right;
   transform-box: fill-box;
-  animation: brazos 2s ease-in-out infinite alternate;
+  animation: brazos 1s ease-in-out infinite alternate;
 }
 #Ellipse-17 {
-  animation: sombra1 2s ease-in-out infinite alternate;
+  animation: sombra1 1s ease-in-out infinite alternate;
 }
 
 /* PETS-WORK */
@@ -132,6 +201,110 @@ input:focus-visible {
 }
 .li-works .imgwork {
   order: 2;
+}
+
+/* MODAL */
+.svg-modal {
+  position: absolute;
+  top: 102px;
+  right: 105px;
+  transform: scaleX(-1);
+}
+.modal {
+  top: 0;
+  position: fixed;
+  background: #000000de;
+  width: 100vw;
+  margin: -10px;
+  height: 110vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.title-modal {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+.carousel-modal {
+  width: 25em;
+  height: 25em;
+  margin: 0 2em;
+}
+.h1-modal {
+  font-size: 55px;
+  margin: 1.5em 0 0 0;
+  text-align: center;
+}
+.container-modal {
+  display: grid;
+  grid-template-columns: repeat(1, 80%);
+  width: 74em;
+  justify-items: center;
+  background-color: #002166;
+}
+.h2-modal {
+  font-size: 20px;
+  margin: 4px 0 2em 0;
+  text-align: center;
+}
+.p-modal {
+  font-size: 20px;
+  margin: 4px 0 1em 0;
+  text-align: justify;
+}
+.info-modal {
+  width: 40em;
+  margin: 4em 0;
+}
+.content-modal {
+  margin: 6em 4em;
+  background: white;
+  width: 93vw;
+  height: 90vh;
+  position: fixed;
+  top: -48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.show-modal {
+  display: inherit;
+}
+.modal-title {
+  color: #ffffff;
+}
+.modal-background {
+  background-color: #002166;
+}
+
+/* farol */
+#farol {
+  animation: farol-move 1.4s cubic-bezier(0.71, 0.77, 0.59, 0.57) infinite alternate ;
+}
+.palanca {
+  transform: rotate(22deg);
+  cursor: pointer;
+}
+.palanca-top {
+  transform-box: fill-box;
+  transform-origin: right;
+  animation: palanca-top 1.4s cubic-bezier(0.12, 0.46, 0.75, 0.36) alternate forwards;
+}
+.palanca-bottom {
+  transform-box: fill-box;
+  transform-origin: right;
+  animation: palanca-bottom 1.4s cubic-bezier(0.12, 0.46, 0.75, 0.36) alternate forwards;
+}
+.luz-externa {
+  animation: farol-move 1.4s cubic-bezier(0.71, 0.77, 0.59, 0.57) infinite alternate ;
+}
+.luz-interna {
+  animation: snow-luz 1.4s cubic-bezier(0.71, 0.77, 0.59, 0.57) infinite alternate;
+  width: 93px;
+  position: absolute;
+  bottom: -10em;
+  z-index: -1;
+  left: 14.9em;
 }
 
 /* CRISTAL-CONTACT */
@@ -166,6 +339,122 @@ input:focus-visible {
 }
 
 /* kEYFRAMES ................*/
+
+/* PETS-HOME */
+@keyframes trayectoria {
+  0% {
+    transform: translateY(45em);
+  }
+  100% {
+    transform: translateY(-154em);
+  }
+}
+@keyframes move-globo {
+  0% {
+    transform: rotateZ(4deg);  
+  }
+  100% {
+    transform: rotateZ(-4deg);
+  }
+}
+
+/* POSTE*/
+/* farol */
+@keyframes farol-move {
+  0% {
+    transform: translateY(129em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}
+@keyframes palanca-top {
+  0% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(22deg);
+  }
+}
+@keyframes palanca-bottom {
+  0% {
+    transform: rotate(22deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+@keyframes snow-luz {
+  0% {
+    transform:translateY(40px);
+  }
+  100% {
+    transform:translateY(0px);
+  }
+}
+/* background */
+@keyframes color {
+  0% {
+    background-color: #fffec8;
+  }
+  50% {
+    background-color: #ffc8c8;
+  }
+  70% {
+    background-color: #c9c8ff;
+  }
+  100% {
+    background-color: #fff1c8;
+  }
+}
+
+/* andres */
+@keyframes ojos-andre {
+  0% {
+    transform: rotateZ(-10deg) scale(1.1);
+    transform-box: fill-box;
+  }
+  100% {
+    transform: rotateZ(6deg) scale(1.1);
+    transform-box: fill-box;
+  }
+}
+
+/* cristal */
+@keyframes move-cola-cris {
+  0% {
+    transform: rotateZ(8deg);
+  }
+  100% {
+    transform: rotateZ(-18deg);
+  }
+}
+@keyframes ojos-cris {
+ 0% {
+  transform: translateY(31px);
+ }  
+ 100% {
+  transform: translateY(-200px);
+ }
+}
+
+/* luna */
+@keyframes cola-luna {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+@keyframes ojo-luna {
+  0% {
+    transform: skewY(14deg) translateX(-102px);  
+  }
+  100% {
+    transform: skewY(3deg) translateX(164px);
+  }
+}
 
 /*LUNA-ABOUT*/
 @keyframes sombra1 {
@@ -306,14 +595,12 @@ input:focus-visible {
   right: 40px;
   cursor: pointer;
 }
-.show-header {
-  display: none;
-  animation: alternate;
-}
 .navegation {
   position: fixed;
-  top: -64em;
-  right: -170px;
+  top: 29em;
+  right: -191px;
+  display: flex;
+  flex-direction: row;
   transform: rotateZ(90deg);
 }
 .navegation-a {
@@ -323,32 +610,12 @@ input:focus-visible {
   font-size: 22px;
   margin-right: 37px;
 }
-.a1 {
-  position: relative;
-  animation: .5s nav1move ease alternate;
-  animation-fill-mode: forwards;
-}
-.a2{
-  position: relative;
-  animation: .7s nav2move ease alternate ;
-  animation-fill-mode: forwards;
-}
-.a3{
-  position: relative;
-  animation: .9s nav3move ease alternate ;
-  animation-fill-mode: forwards;
-}
-.a4{
-  position: relative;
-  animation: 1s nav4move ease alternate ;
-  animation-fill-mode: forwards;
-}
 
 /*SECTION HOME */
 .section-home {
   background: #ebf6ff;
   height: 100vh;
-  padding: 0px 140px 0 25px;
+  padding: 0px 160px 0 35px;
   display: grid;
   grid-template-columns: repeat(3, 10% 50% 40%);
 }
@@ -387,10 +654,10 @@ input:focus-visible {
   align-items: center;
 }
 .background-home {
-  background-color: #d3e4ff;
   padding: 17em;
   color: transparent;
   border-radius: 50%;
+  animation: color  26s cubic-bezier(0.21, 0.16, 0.77, 0.77) infinite;
 }
 .h2-home {
   font-size: 20px;
@@ -468,7 +735,7 @@ input:focus-visible {
 
 /* SECTION WORK */
 .section-works {
-  padding: 5em 1em;
+  padding: 7em 1em;
   background: #ebf6ff;
   display: flex;
   flex-direction: column;
@@ -499,7 +766,7 @@ input:focus-visible {
   align-items: center;
   flex-direction: column;
 }
-.li-works:hover + #cara:hover {
+.li-works:hover + .cara:hover {
   transform: translateY(0);
 }
 .hr-works {
@@ -511,66 +778,6 @@ input:focus-visible {
 }
 
 /* MODAL */
-.modal {
-  top: 0;
-  position: fixed;
-  background: #000000de;
-  width: 100vw;
-  margin: -10px;
-  height: 110vh;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-.title-modal {
-  width: 100%;
-  border-bottom: 1px solid #e3e3e3;
-}
-.carousel-modal {
-  width: 23em;
-  height: 23em;
-}
-.h1-modal {
-  font-size: 55px;
-  margin: 1.5em 0 0 0;
-  text-align: center;
-}
-.container-modal {
-  display: grid;
-  grid-template-columns: repeat(1, 50% 50%);
-  margin: 4em 0 0 0;
-  align-items: center;
-  width: 80em;
-  justify-items: center;
-}
-.h2-modal {
-  font-size: 20px;
-  margin: 4px 0 2em 0;
-  text-align: center;
-}
-.p-modal {
-  font-size: 20px;
-  margin: 4px 0 1em 0;
-  text-align: justify;
-}
-.info-modal {
-  width: 40em;
-  margin: 4em;
-}
-.content-modal {
-  margin: 6em 4em;
-  background: white;
-  width: 93vw;
-  height: 90vh;
-  position: fixed;
-  top: -48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.show-modal {
-  display: inherit;
-}
 
 /* CONTACT */
 .footer-contact {

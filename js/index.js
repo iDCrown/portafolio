@@ -7,10 +7,13 @@ const ModalOne = document.querySelector('.modalOne')
 const ModalTwo = document.querySelector('.modalTwo')
 const ModalThree = document.querySelector('.modalThree')
 
+const MouseOver = document.querySelector('.li-works')
+
 const ShowModalOne = document.querySelector('.li-worksOne')
 const ShowModalTwo = document.querySelector('.li-worksTwo')
 const ShowModalThree = document.querySelector('.li-worksThree')
 
+const nameWork = document.getElementById('namework')
 
 const Farol = document.querySelector('.farol')
 const LuzInterna = document.querySelector('.luz-interna')
@@ -66,7 +69,33 @@ ModalThree.addEventListener('click', e => {
 })
 
 
+MouseOver.addEventListener("mouseover", () => {
+  console.log("funciona")
+  event.target.style.display = "flex"; // Muestra el div
+});
 
+// Agrega un evento de escucha para el evento "mouseout" (cuando el mouse sale)
+MouseOver.addEventListener("mouseout", () => {
+  console.log("no funciona")
+  nameWork.style.display = "none"; // Oculta el div nuevamente
+});
+
+
+const test = document.getElementById("test");
+test.addEventListener(
+  "mouseenter",
+  (event) => {
+    // highlight the mouseenter target
+    event.target.style.color = "purple";
+    console.log()
+
+    // reset the color after a short delay
+    setTimeout(() => {
+      event.target.style.color = "";
+    }, 500);
+  },
+  false,
+);
 
 ShowModalOne.addEventListener('click', e => {
   ModalOne.classList.toggle('show-modal')
@@ -80,6 +109,8 @@ ShowModalThree.addEventListener('click', () => {
   ModalThree.classList.toggle('show-modal')
   Body.classList.add('body-overflow')
 })
+
+
 
 
 
@@ -99,33 +130,33 @@ Palanca.addEventListener('click', () => {
 
 
 
-function caraOneTrue() {
-  caraOne.classList.add("movecara")
-  console.log("true")
-}
+// function caraOneTrue() {
+//   caraOne.classList.add("movecara")
+//   console.log("true")
+// }
 
-function caraOnefalse() {
-  caraOne.classList.remove("movecara")
-  console.log("false")
-}
+// function caraOnefalse() {
+//   caraOne.classList.remove("movecara")
+//   console.log("false")
+// }
 
-function caraTwotrue() {
-  caraTwo.classList.add("movecara")
-  console.log("true")
-}
-function caraTwofalse() {
-  caraTwo.classList.remove("movecara")
-  console.log("false")
-}
+// function caraTwotrue() {
+//   caraTwo.classList.add("movecara")
+//   console.log("true")
+// }
+// function caraTwofalse() {
+//   caraTwo.classList.remove("movecara")
+//   console.log("false")
+// }
 
-function caraThreetrue() {
-  caraThree.classList.add("movecara")
-  console.log("true")
-}
-function caraThreefalse() {
-  caraThree.classList.remove("movecara")
-  console.log("false")
-}
+// function caraThreetrue() {
+//   caraThree.classList.add("movecara")
+//   console.log("true")
+// }
+// function caraThreefalse() {
+//   caraThree.classList.remove("movecara")
+//   console.log("false")
+// }
 
 
 
